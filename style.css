@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Poppins', sans-serif;
+}
+.main_box{
+    height: 100vh;
+    background: url(camera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn_one{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+    
+.sidebar_menu{
+    position: fixed;
+    height: 100vh;
+    width:300px;
+    /* border: 1px solid black; */
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    left: -300px;
+    transition: all 0.1s linear;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    height: 60px;
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    color: white;
+}
+.sidebar_menu .btn_two i{
+    color: grey;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 275px;
+    /* opacity: 0; */
+    cursor: pointer;
+}  
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}  
+.sidebar_menu .menu i, a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sidebar_menu .menu i{
+    padding-right: 8px;
+}
+.sidebar_menu .social_media{
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;
+}
+ #check{
+    display: none;
+} 
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.btn_one i:hover{
+    font-size: 40px;
+    cursor: pointer;
+}
+.btn_two i:hover{
+    font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+}
+#check:checked ~ .btn_one{
+    opacity: 0;
+}
+
+
+    
+
+    
+    
+/* .fa-solid{
+    font-size: xx-large;
+    font-weight: 1000;
+    cursor: pointer;
+    
+}
+/* .btn_one:checked{
+    position:relative;
+    z-index: 0;
+} */
+/* .btn_one{
+
+} */
+
+
+
+/* .sidebar_menu a{
+    font-size: xx-large;
+    font-weight: 400;
+}
+.btn_two{
+    direction: ltr;
+    position: absolute;
+    left: 412px;
+    top: 55px;
+
+
+}
+.menu a{
+    font-size:x-large;
+    font-weight: 1000;
+    text-decoration: none;
+    /* color: antiquewhite; */
+
+/* .menu .box{
+    height: 37px;
+    width: 100%;
+    padding-top: 2px;
+}
+.box i{
+    padding-right: 19px;
+    padding-left: 9px;
+}
+.social_media{
+    height: 40px;
+    width: 30%;
+    border:1px solid black;
+    position: absolute;
+    bottom: 10px;
+    display: block;
+}
+.social_media a{
+    position: relative;
+    right: 2px;
+    left: 143px;
+   
+}
+.box:hover{
+    box-shadow: 3px 3px 10px black;
+}
+.sidebar_menu .logo:hover{
+    box-shadow: 3px 3px 10px black;
+}
+.social_media a:hover{
+    box-shadow: 1px 1px 5px black;
+}
+.main_box .btn_one{
+    position:absolute;
+    left: 30px;
+    z-index: 2;
+}
+#check{
+    display: none;
+}
+#check:checked ~ .sidebar_menu{
+   margin-left: 0px;
+} 
+
+ */ 
